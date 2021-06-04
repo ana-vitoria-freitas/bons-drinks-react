@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.buttonLogin{
+  border-radius: 5px;
+  background-color: rgb(111, 151, 224);
+}
+
+
+.bigContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.containerGrid{
+  width: 100%;
+}
+
+
+.titulo{
+  color: cadetblue;
+  font-family: 'Roboto Mono', monospace;
+}
+h1{
+  font-family: 'Roboto Mono', monospace;
+}
+p{
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.flexBoxGrid{
+  display: grid;
+  grid-template-areas:
+  "container1 container2 container3";
+  grid-template-columns: 1fr 8fr 1fr;
+  gap:20px;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.forms{
+  align-self: center;
+}
+
+.container1{
+  grid-area: container1;
+  height: 300px;
+  background-color:cadetblue;
+}
+
+.container2{
+  display: grid;
+  justify-items: center;
+  grid-area: container2;
+  height: 300px;
+  background-color:rgb(212, 230, 231);
+}
+
+
+.container3{
+  grid-area: container3;
+  height: 300px;
+  background-color:cadetblue;
+}
+
+
+.buttonLogin{
+  background-color:gainsboro;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

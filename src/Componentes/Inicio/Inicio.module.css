@@ -1,0 +1,66 @@
+
+.containerGrid{
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+
+.grid{
+    background-color:cadetblue;
+    display: grid;
+    grid-template-areas:
+    "nav1 nav2 nav3";
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+
+.nav2:hover {
+    color:white;
+    transform: skewX(-20deg);
+}
+
+.nav2 {
+    transform: skewX(0.001deg);
+    transition: transform .3s ease-in-out;
+}
+
+.nav3:hover {
+    color:white;
+    transform: skewX(-20deg);
+}
+
+
+.nav3 {
+    transform: skewX(0.001deg);
+    transition: transform .3s ease-in-out;
+}
+
+.nav1 {
+    transform: skewX(0.001deg);
+    transition: transform .3s ease-in-out;
+}
+
+.nav1:hover {
+    color:white;
+    transform: skewX(-20deg);
+}
+
+.nav1{
+    text-align: center;
+    font-size:15px;
+    grid-area: nav1;
+}
+
+.nav2{
+    text-align: center;
+    font-size:15px;
+    grid-area: nav2;
+}
+
+.nav3{
+    text-align: center;
+    font-size:15px;
+    grid-area: nav3;
+}
+

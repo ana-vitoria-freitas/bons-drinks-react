@@ -1,0 +1,66 @@
+.fonteFooter{
+    font-size: 15px;
+}
+
+.containerFooter {
+    background-color:cadetblue;
+    display: grid;
+    grid-template-areas:
+    "footer1 footer2";
+    grid-template-columns: 5fr 5fr ;
+}
+
+/* .paragrafoFooter {
+    transform: skewX(0.001deg);
+    transition: transform .3s ease-in-out;
+}
+
+.paragrafoFooter:hover {
+    color:white;
+    transform: skewX(-20deg);
+} */
+
+.footer1:hover{
+    color:white;
+    transform: skewX(-20deg);
+}
+
+.footer1{
+    transform: skewX(0.001deg);
+    transition: transform .3s ease-in-out;
+    text-align: center;
+    font-size:15px;
+    grid-area: footer1;
+}
+.footer2:hover{
+    color:white;
+    transform: skewX(-20deg);
+}
+
+.footer2{
+    transform: skewX(0.001deg);
+    transition: transform .3s ease-in-out;
+    text-align: center;
+    font-size:15px;
+    grid-area: footer2;
+}
+
+.footer3:hover{
+    color:white;
+    transform: skewX(-20deg);
+}
+
+.footer3{
+    transform: skewX(0.001deg);
+    transition: transform .3s ease-in-out;
+    text-align: center;
+    font-size:15px;
+    grid-area: footer3;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
