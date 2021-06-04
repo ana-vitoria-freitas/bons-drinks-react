@@ -21,9 +21,15 @@ const HomeDrinks = () => {
 
   return (<div >
   <Inicio props="1"/>
+  <br/>
+  <br/>
+  <h1 className={style.titulo}>Our Drinks</h1>
+  <br/>
+  <br/>
+  <br/>
   <div className={style.gridBebidas}>
       <div className="rowGrid">
-        <img src={drink.strDrinkThumb} alt=""/>
+        <img className={style.image}src={drink.strDrinkThumb} alt=""/>
         <br/>
       </div>
   </div>
